@@ -15,7 +15,6 @@ body{
     border: 3px solid black;
     text-align: center;
     padding: 10px;
-    text-overflow: none;
 }
 
 .title, .subtitle{
