@@ -15,9 +15,30 @@ body{
 .box{
     border: 3px solid black;
     text-align: center;
+    margin: 10px;
     padding: 10px;
 }
 
 .title, .subtitle{
     user-select: none;
+}
+
+.link{
+    margin: 10px;
+    list-style: none;
+}
+
+.link_a{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.link_a:hover{
+    background: black;
+    color: white;
+    transition: background 0.5s, color 0.5s;
 }
