@@ -1,0 +1,164 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background: #3F51B5;
+}
+
+.header{
+    background: rgba(48, 63, 159, 0.8);
+    position: fixed;
+    width: 100%;
+    z-index: 101;
+}
+
+.header_title{
+    float: left;
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+    margin: 23px;
+    text-decoration: none;
+}
+.header_list{
+    float: right;
+    margin: 0;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+
+.header-list_nav{
+    list-style: none;
+}
+
+.list-nav_link{
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+}
+
+.nav-link_name{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.list-nav_link:hover{
+    border-bottom: 4px solid #BAD7E9;
+}
+
+@media screen and (max-width: 650px){
+    .header_title{
+        display: block;
+        float: none;
+        text-align: center;
+    }
+    .header_list{
+        float: none;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .header-list_nav{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item{
+    margin: 20px;
+    background: #C5CAE9;
+    color: #212121;
+    border-radius: 20px;
+}
+
+
+.margintop{
+    margin-top: 7%;
+}
+
+.flex-item_title{
+    display: block;
+    text-align: center;
+}
+
+.home-img{
+    display: block;
+    text-align: center;
+    overflow: hidden;
+}
+
+.company-title{
+    text-align: center;
+}
+
+.description-title{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin: 5px;
+}
+
+.flex-proyect{
+    overflow: hidden;
+    display: flex;
+}
+
+.proyect-item{
+    background: #448AFF;
+    border-radius: 20px;
+    margin: 20px;
+    width: 50%;
+    height: 50vh;
+}
+
+.proyect-item:hover{
+    background: #303F9F;
+}
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-item{
+    border-radius: 40px;
+    background: #448AFF;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    height: 80px;
+    text-align: center;
+}
+
+.contact-item:hover{
+    background: #303F9F;
+}
+
+.contact-link{
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 30px;
+    color: #fff;
+}
+
+.footer{
+    background: #303F9F;
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 650px){
+    .margintop{
+        margin-top: 40%;
+    }
+}
